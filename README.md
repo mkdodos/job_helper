@@ -29,3 +29,8 @@ controller
 | gov_worker  |     政府職管員      | 
 | admin  |     站長      | 
 | dada  |     (多角色)      | 
+
+資料關連
+case_basic
+case_assign belongsTo('CaseBasic','case_id','id')
+case_arr belongsTo('CaseAssign','case_id','id')
