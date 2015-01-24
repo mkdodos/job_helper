@@ -32,8 +32,6 @@ controller
 
 資料關連
 
-case_basic
-
-case_assign belongsTo('CaseBasic','case_id','id')
-
-case_arr belongsTo('CaseAssign','case_id','id')
+1. case_basic
+2. case_assign belongsTo('CaseBasic','case_id','id')
+3. case_arr belongsTo('CaseAssign','case_id','id')
