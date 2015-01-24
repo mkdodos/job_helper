@@ -15,8 +15,8 @@
 controller
 
 1. 取得同公司的人員資料 
-1. 針對每個人員取得服務的個案編號 
-1. 用此個案編號作為條件取出case_arr資料表的資料,依年月群組統計時數
+2. 針對每個人員取得服務的個案編號 
+3. 用此個案編號作為條件取出case_arr資料表的資料,依年月群組統計時數
 
 
 角色對照表
@@ -32,6 +32,6 @@ controller
 
 資料關連
 
-1. case_basic
-2. case_assign belongsTo('CaseBasic','case_id','id')
-3. case_arr belongsTo('CaseAssign','case_id','id')
+* case_basic
+* case_assign belongsTo('CaseBasic','case_id','id')
+* case_arr belongsTo('CaseAssign','case_id','id')
