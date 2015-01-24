@@ -9,8 +9,11 @@ controller
 
 角色對照表
 ----------
-| 角色名稱 | 說明 | Third Header |
-| ------------ | :-----------: | -----------: |
-| manager      |  職評主管 |  right-align |
-| worker      |   職評    |         Cell |
-| gov_manger  |     職管主管      |         Data |
+| 角色名稱 | 說明 |
+| ------------ | :-----------: | 
+| manager      |  職評主管 |  
+| worker      |   職評    |         
+| gov_manger  |     政府職管主管      | 
+| gov_worker  |     政府職管員      | 
+| admin  |     站長      | 
+| dada  |     (多角色)      | 
