@@ -1,5 +1,17 @@
 # job_helper
 職評管理
+
+功能實作明細表
+
+| 功能 | 說明 |
+| ------------ | ----------- | 
+| request      |  GET service/count_hours |  
+| filter      |   manager(職評主管)    |         
+| response  |     資料陣列 key=>value 人員id=>統計時數,年,月     | 
+| controller  |     countHours@ServiceController      | 
+| view  |     二個迴圈 (人員,資料)      | 
+| menu  |     服務時數統計      | 
+
 controller
 
 1. 取得同公司的人員資料 
