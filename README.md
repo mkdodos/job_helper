@@ -3,7 +3,7 @@
 
 功能實作明細表
 
-| 功能 | 說明 |
+| 功能 | 人員服務時數統計 |
 | ------------ | ----------- | 
 | request      |  GET service/count_hours |  
 | filter      |   manager(職評主管)    |         
