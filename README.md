@@ -35,3 +35,6 @@ controller
 * case_basic
 * case_assign belongsTo('CaseBasic','case_id','id')
 * case_arr belongsTo('CaseAssign','case_id','id')
+
+網頁運作方式
+送出請求 接受請求 送出回應
